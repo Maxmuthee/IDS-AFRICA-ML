@@ -1,22 +1,11 @@
 # IDS-Africa-ML
 ### Machine Learning-Based Intrusion Detection for Sub-Saharan African Networks
 #### A Comparative Study of ML Models with Explainability and Edge Deployment Analysis
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Dataset](https://img.shields.io/badge/Dataset-CICIDS--2017-orange)
-
----
-
 ## Overview
 
 This repository contains the full research pipeline for a comparative analysis of machine learning models applied to network intrusion detection, with a specific focus on deployment feasibility in Sub-Saharan African network environments.
 
 This work addresses a critical gap in existing literature: while ML-based Intrusion Detection Systems (IDS) have been extensively studied in high-resource settings, their applicability to the resource-constrained, infrastructure-limited networks common across Sub-Saharan Africa remains largely unexplored.
-
-**Target Publication:** IEEE Access / MDPI Electronics  
-**Expected Submission:** September 2025  
 **Research Domain:** Cybersecurity · Machine Learning · Network Security · African ICT
 
 ---
@@ -29,42 +18,6 @@ This work addresses a critical gap in existing literature: while ML-based Intrus
 4. Which model offers the best trade-off between accuracy and computational cost for deployment in low-resource African network environments?
 
 ---
-
-## Repository Structure
-
-```
-IDS-Africa-ML/
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb        # Dataset loading, EDA, class distribution
-│   ├── 02_preprocessing.ipynb           # Cleaning, encoding, SMOTE resampling
-│   ├── 03_model_training.ipynb          # RF, XGBoost, Neural Network training
-│   ├── 04_explainability_shap.ipynb     # SHAP feature importance analysis
-│   └── 05_edge_deployment_analysis.ipynb # Model size, inference speed, RAM usage
-│
-├── figures/
-│   ├── class_distribution.png
-│   ├── confusion_matrices.png
-│   ├── roc_curves.png
-│   ├── shap_summary_plot.png
-│   └── model_comparison_chart.png
-│
-├── outputs/
-│   └── results_table.csv               # All model metrics in one place
-│
-├── data/
-│   └── README.md                       # Instructions to download CICIDS-2017
-│
-├── paper/
-│   └── manuscript.pdf                  # Final submitted paper (added after submission)
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Dataset
 
 **CICIDS-2017** — Canadian Institute for Cybersecurity Intrusion Detection Evaluation Dataset 2017
@@ -76,8 +29,6 @@ IDS-Africa-ML/
 - **Why CICIDS-2017:** Contains modern attack types not present in older benchmarks (e.g., NSL-KDD from 1999), making it significantly more relevant to current threat landscapes
 
 > Note: The dataset is not included in this repository due to size. See `data/README.md` for download instructions.
-
----
 
 ## Models Compared
 
@@ -151,43 +102,10 @@ A key contribution of this work is situating the findings within the realities o
 
 
 
-### Requirements
-```
-pandas>=1.5.0
-numpy>=1.23.0
-scikit-learn>=1.1.0
-xgboost>=1.7.0
-tensorflow>=2.10.0
-imbalanced-learn>=0.9.0
-shap>=0.41.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-jupyter>=1.0.0
-```
-
----
-
 ## Research Paper
 
 **Title:** Comparative Analysis of Machine Learning Models for Intrusion Detection on Modern Network Traffic: A Study on Class Imbalance, Explainability, and Edge Deployment Feasibility in Sub-Saharan Africa
 
-
-
-## Citation
-
-```bibtex
-
-```
-
----
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## Contact
 
 **Author:** Maxwell Gitahi 
 ---
