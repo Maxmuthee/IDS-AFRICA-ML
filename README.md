@@ -97,11 +97,6 @@ A key contribution of this work is situating the findings within the realities o
 
 ---
 
-
-
-
-
-
 ## Research Paper
 
 **Title:** Comparative Analysis of Machine Learning Models for Intrusion Detection on Modern Network Traffic: A Study on Class Imbalance, Explainability, and Edge Deployment Feasibility in Sub-Saharan Africa
